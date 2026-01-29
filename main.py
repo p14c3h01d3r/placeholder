@@ -18,4 +18,4 @@ async def hello(ctx):
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
-bot.run("TOKEN RAHASIA ADA DI SINI")
+bot.run("MTQ2NDU4ODc5ODA1Mzg0NzA1Mg.GtR8Cm.UveBVh-80RfxTKzazDbDdAHfzetg9FK7AJmoJE")
