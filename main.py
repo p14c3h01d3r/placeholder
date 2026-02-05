@@ -15,7 +15,15 @@ async def hello(ctx):
     await ctx.send(f'Hi! I am a bot {bot.user}!')
 
 @bot.command()
+async def mowning(ctx):
+    await ctx.send("mowning")
+
+@bot.command()
+async def repeat(ctx, *, message):
+    await ctx.send(message)
+
+@bot.command()
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
-bot.run("MTQ2NDU4ODc5ODA1Mzg0NzA1Mg.GtR8Cm.UveBVh-80RfxTKzazDbDdAHfzetg9FK7AJmoJE")
+bot.run("enter bot token here")
